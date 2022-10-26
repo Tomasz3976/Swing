@@ -28,31 +28,7 @@ public class gui_form_1 extends JFrame {
         super("Moja pierwsza aplikacja");
         this.setContentPane(this.Panel1); //wyswietlanie na ekranie
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setSize(500, 700);
-        konwersjaButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                liczbaA = Double.parseDouble(textField1.getText());
-                liczbaB = Double.parseDouble(textField2.getText());
-                wynik = liczbaA + liczbaB;
-                textField3.setText("Suma " + liczbaA + " + " + liczbaB + " = " + wynik);
-            }
-        });
-        roznicaButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                liczbaA = Double.parseDouble(textField1.getText());
-                liczbaB = Double.parseDouble(textField2.getText());
-                wynik = liczbaA - liczbaB;
-                textField3.setText("Roznica " + liczbaA + " - " + liczbaB + " = " + wynik);
-            }
-        });
-        checkBox1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                textField4.setText("Checkbox dziala");
-            }
-        });
+        this.setSize(500, 400);
         konwersjaButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

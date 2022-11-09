@@ -53,9 +53,6 @@ public class JCheckBoxExample extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JOptionPane optionPane = new JOptionPane();
-                if (javaCheckBox.isEnabled()) {
-                    optionPane.
-                }
                 JOptionPane.showMessageDialog(null, "Cena wynosi: " + price);
             }
         });

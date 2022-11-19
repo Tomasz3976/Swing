@@ -24,21 +24,13 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="557ef" class="javax.swing.JList" binding="list1" default-binding="true">
+              <component id="2ef56" class="javax.swing.JList" binding="list1" default-binding="true">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="50"/>
                   </grid>
                 </constraints>
-                <properties>
-                  <model>
-                    <item value="jajka"/>
-                    <item value="mleko"/>
-                    <item value="ser"/>
-                    <item value="kapusta"/>
-                    <item value="sałata"/>
-                  </model>
-                </properties>
+                <properties/>
               </component>
             </children>
           </grid>
@@ -50,7 +42,7 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="3dcf0" class="javax.swing.JList" binding="list2" default-binding="true">
+              <component id="7d4a4" class="javax.swing.JList" binding="list2" default-binding="true">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="50"/>
